@@ -15,6 +15,10 @@ public class Fibonacci {
     private ArrayList<Long> listOfFibonacciNumbers;
 
     /**
+     * constant variable.
+     */
+    private final double ONE_HUNDRED_PERCENT = 100d;
+    /**
      * @param size - the size of the sequence
      */
     public Fibonacci(final int size) {
@@ -73,8 +77,8 @@ public class Fibonacci {
                 countEven++;
             }
         }
-        double percentageOfEven = 100d * countEven / n;
-        double percentageOfOdd = 100d - percentageOfEven;
+        double percentageOfEven = ONE_HUNDRED_PERCENT * countEven / n;
+        double percentageOfOdd = ONE_HUNDRED_PERCENT - percentageOfEven;
         System.out.println("\npercantage of even nubmers: " + percentageOfEven);
         System.out.println("\npercantage of odd nubmers: " + percentageOfOdd);
     }

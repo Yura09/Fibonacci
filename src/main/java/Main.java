@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * The class Main is used to solve following tasks:
  * -print odd numbers
@@ -22,7 +21,7 @@ public class Main {
      *
      * @param args unused
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the interval:");
         int from = scanner.nextInt();

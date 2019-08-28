@@ -1,6 +1,5 @@
 /**
- * this class represents
- * odd ane even numbers.
+ * this class represents odd ane even numbers.
  */
 public class Numbers {
     /**
@@ -15,12 +14,12 @@ public class Numbers {
     /**
      * constructor - create new object.
      *
-     * @param from - the start of the interval
-     * @param to   - the end of the interval
+     * @param start - the start of the interval
+     * @param end   - the end of the interval
      */
-    public Numbers(final int from, final int to) {
-        this.from = Math.abs(from);
-        this.to = Math.abs(to);
+    public Numbers(final int start, final int end) {
+        this.from = Math.abs(start);
+        this.to = Math.abs(end);
     }
 
     /**
