@@ -40,7 +40,6 @@ fibonacci-app
      <li class="expanded"><a href="project-reports.html" title="Project Reports">Project Reports</a>
       <ul>
        <li class="none"><a href="findbugs.html" title="FindBugs">FindBugs</a></li>
-       <li class="none"><a href="pmd.html" title="PMD">PMD</a></li>
        <li class="none"><strong>Checkstyle</strong></li>
       </ul></li>
     </ul>
@@ -66,7 +65,7 @@ fibonacci-app
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>22</td></tr></table></div>
+<td>18</td></tr></table></div>
 <div class="section">
 <h2><a name="Files"></a>Files</h2>
 <table border="0" class="bodyTable">
@@ -79,12 +78,12 @@ fibonacci-app
 <td><a href="#Fibonacci.java">Fibonacci.java</a></td>
 <td>0</td>
 <td>0</td>
-<td>8</td></tr>
+<td>6</td></tr>
 <tr class="a">
 <td><a href="#Main.java">Main.java</a></td>
 <td>0</td>
 <td>0</td>
-<td>5</td></tr>
+<td>3</td></tr>
 <tr class="b">
 <td><a href="#Numbers.java">Numbers.java</a></td>
 <td>0</td>
@@ -101,7 +100,7 @@ fibonacci-app
 <tr class="b">
 <td>coding</td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_coding.html#HiddenField">HiddenField</a></td>
-<td>3</td>
+<td>2</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
 <tr class="a">
 <td></td>
@@ -114,188 +113,157 @@ fibonacci-app
 <td>1</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
 <tr class="a">
-<td>imports</td>
-<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_imports.html#UnusedImports">UnusedImports</a>
-<ul>
-<li>processJavadoc: <tt>&quot;false&quot;</tt></li></ul></td>
-<td>2</td>
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
-<tr class="b">
 <td>javadoc</td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_javadoc.html#JavadocPackage">JavadocPackage</a></td>
 <td>1</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
-<tr class="a">
+<tr class="b">
 <td></td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_javadoc.html#JavadocStyle">JavadocStyle</a></td>
 <td>8</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
-<tr class="b">
+<tr class="a">
 <td></td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_javadoc.html#JavadocVariable">JavadocVariable</a></td>
 <td>1</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
-<tr class="a">
+<tr class="b">
 <td>misc</td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_misc.html#FinalParameters">FinalParameters</a></td>
-<td>4</td>
+<td>3</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr></table></div>
 <div class="section">
 <h2><a name="Details"></a>Details</h2>
 <div class="section">
 <h3 id="Fibonacci.java">Fibonacci.java</h3>
 <table border="0" class="bodyTable">
-<tr class="b">
+<tr class="a">
 <th>Severity</th>
 <th>Category</th>
 <th>Rule</th>
 <th>Message</th>
 <th>Line</th></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocPackage</td>
 <td>Missing package-info.java file.</td>
 <td>1</td></tr>
-<tr class="b">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>javadoc</td>
-<td>JavadocStyle</td>
-<td>First sentence should end with a period.</td>
-<td>3</td></tr>
 <tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
-<td>7</td></tr>
+<td>4</td></tr>
 <tr class="b">
+<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
+<td>javadoc</td>
+<td>JavadocStyle</td>
+<td>First sentence should end with a period.</td>
+<td>8</td></tr>
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocVariable</td>
 <td>Missing a Javadoc comment.</td>
-<td>12</td></tr>
-<tr class="a">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>misc</td>
-<td>FinalParameters</td>
-<td>Parameter n should be final.</td>
-<td>18</td></tr>
-<tr class="b">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>coding</td>
-<td>HiddenField</td>
-<td>'n' hides a field.</td>
-<td>18</td></tr>
-<tr class="a">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>coding</td>
-<td>MagicNumber</td>
-<td>'100' is a magic number.</td>
-<td>70</td></tr>
+<td>13</td></tr>
 <tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>coding</td>
 <td>MagicNumber</td>
-<td>'100' is a magic number.</td>
-<td>71</td></tr></table></div>
+<td>'100d' is a magic number.</td>
+<td>74</td></tr>
+<tr class="a">
+<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
+<td>coding</td>
+<td>MagicNumber</td>
+<td>'100d' is a magic number.</td>
+<td>75</td></tr></table></div>
 <div class="section">
 <h3 id="Main.java">Main.java</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
+<tr class="b">
 <th>Severity</th>
 <th>Category</th>
 <th>Rule</th>
 <th>Message</th>
 <th>Line</th></tr>
-<tr class="b">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>imports</td>
-<td>UnusedImports</td>
-<td>Unused import - java.util.ArrayList.</td>
-<td>1</td></tr>
 <tr class="a">
-<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
-<td>imports</td>
-<td>UnusedImports</td>
-<td>Unused import - java.util.List.</td>
-<td>2</td></tr>
-<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
-<td>5</td></tr>
-<tr class="a">
+<td>2</td></tr>
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>design</td>
 <td>HideUtilityClassConstructor</td>
 <td>Utility classes should not have a public or default constructor.</td>
-<td>20</td></tr>
-<tr class="b">
+<td>17</td></tr>
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>misc</td>
 <td>FinalParameters</td>
 <td>Parameter args should be final.</td>
-<td>27</td></tr></table></div>
+<td>24</td></tr></table></div>
 <div class="section">
 <h3 id="Numbers.java">Numbers.java</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
+<tr class="b">
 <th>Severity</th>
 <th>Category</th>
 <th>Rule</th>
 <th>Message</th>
 <th>Line</th></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
 <td>1</td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
 <td>6</td></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
 <td>10</td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>
 <td>First sentence should end with a period.</td>
 <td>14</td></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>misc</td>
 <td>FinalParameters</td>
 <td>Parameter from should be final.</td>
 <td>20</td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>coding</td>
 <td>HiddenField</td>
 <td>'from' hides a field.</td>
 <td>20</td></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>misc</td>
 <td>FinalParameters</td>
 <td>Parameter to should be final.</td>
 <td>20</td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>coding</td>
 <td>HiddenField</td>
 <td>'to' hides a field.</td>
 <td>20</td></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocStyle</td>

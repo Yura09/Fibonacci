@@ -1,18 +1,18 @@
 /**
  * this class represents
- * odd ane even numbers
+ * odd ane even numbers.
  */
 public class Numbers {
     /**
-     * the start of the interval
+     * the start of the interval.
      */
     private int from;
     /**
-     * the end of the interval
+     * the end of the interval.
      */
     private int to;
     /**
-     * constructor - create new object
+     * constructor - create new object.
      * @param from - the start of the interval
      * @param to - the end of the interval
 
@@ -41,7 +41,7 @@ public class Numbers {
     }
     /**
      * this method prints the sum of
-     * odd and even numbers in the interval
+     * odd and even numbers in the interval.
      */
     public void printSumOfOddAndEvenNumbers() {
         int sumOfOddNumbers = 0;

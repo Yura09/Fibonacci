@@ -1,27 +1,30 @@
 import java.util.ArrayList;
 import java.util.Collections;
+
 /**
- * Represent Fibonacci numbers
+ * Represent Fibonacci numbers.
  */
 public class Fibonacci {
     /**
-     * the size of the sequence
+     * the size of the sequence.
      */
     private int n;
-
+    /**
+     * the list where is stored Fibonacci numbers.
+     */
     private ArrayList<Long> listOfFibonacciNumbers;
-
     /**
      * @param size - the size of the sequence
-     *
      */
     public Fibonacci(final int size) {
         this.n = size;
         listOfFibonacciNumbers = new ArrayList<Long>(this.n);
         buildFibonacci();
     }
+
     /**
      * Build fibonacci array list.
+     *
      * @return the current object instance
      */
     private Fibonacci buildFibonacci() {
@@ -37,10 +40,11 @@ public class Fibonacci {
         }
         return this;
     }
+
     /**
      * this method print the biggest even and odd numbers in the sequence.
-     *  F1-maxOddNumber
-     *  F2-maxEvenNumber
+     * F1-maxOddNumber
+     * F2-maxEvenNumber
      */
     public void printTheBiggestEvenAndOddFibonacciNumbers() {
         ArrayList<Long> evenNumbers = new ArrayList<>();
@@ -57,6 +61,7 @@ public class Fibonacci {
 
         System.out.println("\nF1= " + maxOddNumber + "\tF2= " + maxEvenNumber);
     }
+
     /**
      * this method print percentage of odd and even fibonacci numbers.
      */
