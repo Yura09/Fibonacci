@@ -17,7 +17,7 @@ public class Numbers {
      * @param to - the end of the interval
 
      */
-    public Numbers(int from, int to) {
+    public Numbers(final int from,final int to) {
         this.from = Math.abs(from);
         this.to = Math.abs(to);
     }
