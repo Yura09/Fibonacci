@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * The class Main is used to solve following tasks:
  * -print odd numbers

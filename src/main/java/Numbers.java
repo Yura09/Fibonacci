@@ -11,16 +11,18 @@ public class Numbers {
      * the end of the interval.
      */
     private int to;
+
     /**
      * constructor - create new object.
+     *
      * @param from - the start of the interval
-     * @param to - the end of the interval
-
+     * @param to   - the end of the interval
      */
-    public Numbers(final int from,final int to) {
+    public Numbers(final int from, final int to) {
         this.from = Math.abs(from);
         this.to = Math.abs(to);
     }
+
     /**
      * this method prints odd numbers
      * from start to the end of interval and even from end to start.
@@ -39,6 +41,7 @@ public class Numbers {
             }
         }
     }
+
     /**
      * this method prints the sum of
      * odd and even numbers in the interval.

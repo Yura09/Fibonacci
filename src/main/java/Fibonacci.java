@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+
 /**
  * Represent Fibonacci numbers.
  */
@@ -12,6 +13,7 @@ public class Fibonacci {
      * the list where is stored Fibonacci numbers.
      */
     private ArrayList<Long> listOfFibonacciNumbers;
+
     /**
      * @param size - the size of the sequence
      */
